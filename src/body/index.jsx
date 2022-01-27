@@ -23,7 +23,7 @@ const Body = (props) => {
 
   useEffect(() => {
     const options = {
-      url: 'http://localhost:3001/api/bios/miguelangarano',
+      url: 'https://guarded-harbor-32101.herokuapp.com/api/bios/miguelangarano',
       method: 'GET',
       headers: {
         'Accept': 'application/json',
