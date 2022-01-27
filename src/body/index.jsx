@@ -86,6 +86,7 @@ const Body = (props) => {
       weight: data.weight
     })
     setModalOpen(true)
+    window.scrollTo(0, 0)
   }
 
   function closeModal () {

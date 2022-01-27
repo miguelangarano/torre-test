@@ -20,7 +20,6 @@ const SkillGroup = (props) => {
     </div>
     <div className='skillgroup-body'>
       {props.data.map((it, ind) => {
-        s
         return <Chip key={ind} name={it.name} onChipClick={(e) => props.onChipClick(e)} />
       })}
     </div>
